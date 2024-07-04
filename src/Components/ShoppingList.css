@@ -1,0 +1,86 @@
+/* ShoppingList.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical;
+  }
+  
+  button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  li span {
+    color: #333;
+    word-break: break-word;
+  }
+  
+  button svg {
+    pointer-events: none;
+  }
+  
+  .share-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .share-buttons button {
+    flex: 1;
+    margin: 0 5px;
+  }
+  
+  .creation-date {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
